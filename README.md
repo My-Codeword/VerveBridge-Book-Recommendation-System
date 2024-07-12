@@ -8,7 +8,7 @@ A Book Recommendation System is a tool that helps readers discover new books tai
  --Exploratory Data Analysis
  --Model building 
  --Save the Model
- 
+
 <-----------------Step2:Creating UI for System-------------------------->
 |
 |--Create A flask app(app.py) for  a straightforward and adaptable method for        
