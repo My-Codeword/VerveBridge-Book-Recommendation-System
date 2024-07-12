@@ -1,2 +1,28 @@
 # VerveBridge-Book-Recommendation-System
-A Book Recommendation System is a tool that helps readers discover new books tailored to their preferences. By analyzing data such as reading history, ratings, and reviews, the system suggests books that align with the user's interests. It's like having a personal librarian who knows exactly what you like.
+A Book Recommendation System is a tool that helps readers discover new books tailored to their preferences. The system suggests books that align with the user's interests by analyzing data such as reading history, ratings, and reviews. It's like having a personal librarian who knows exactly what you like.
+
+<-----------Step1: Basic Workflow of Our System Design------------------>
+|
+|--Data Collection
+ --Data Preprocessing
+ --Exploratory Data Analysis
+ --Model building 
+ --Save the Model
+
+<-----------------Step2:Creating UI for System-------------------------->
+|
+|--Create A flask app(app.py) for  a straightforward and adaptable method for        
+   developing Python-based web applications and APIs.
+--Add the Save Model in (app.py) as we created above ipynb file which is saved in .pkl form.
+--In the same Flask app add an HTML, CSS file for the UI for the User/Client.
+
+
+<---------------Step 3: Execution Process of System---------------------->
+|
+|-- A)-Open All Source Code in your adaptable IDE.
+ -- B)-Go to the terminal/or output window And create a virtual environment for Flask app.
+ -- C)-Install all Necessary modules which describe in Requirement.txt 
+ ---D)-type A commend in the terminal for run a flask app: python -m flask --app .\app.py run
+ ---E)-Click on URL that came in the output.
+
+
