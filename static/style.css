@@ -1,0 +1,61 @@
+/* static/style.css */
+body {
+    font-family: "Lucida Console", "Courier New", monospace;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    margin-top: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label,
+input,
+button {
+    padding: 5px;
+    margin-bottom: 14px;
+}
+
+button {
+    padding: 10px;
+    background-color: #27ff01;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #257bd7;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f9f9f9;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
